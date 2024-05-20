@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+        <label for="Side1">Side1:</label>
+       <input style="height: 10px; padding-top: 10px;  margin: 10px;" type="number" id="side1" placeholder="Side1">
+       <br>
+       <label for="Side2">Side2:</label>
+       <input style="height: 10px; padding-top: 10px;  margin: 10px;" type="number" id="side2" placeholder="Side2" >
+       <br>
+       <label for="Side3">Side3:</label>
+       <input style="height: 10px; padding-top: 10px;  margin: 10px;"type="number" id="side3" placeholder="Side3" oninput="checkInput()">
+       <br>
+       
+
+      
+       <button id="calcBtn" type="submit" onclick="calculateArea()">Calculate Area</button>
+       <br>
+
+       <label for="Area">Area:</label>
+        <input style="height: 10px; padding-top: 10px;  margin: 10px; "type="number" name="" id="Area">
+        
+        <script src="script.js"></script>
+        <!-- function area(base,height)
+        {
+            return((1/2)*base*height);
+        }
+            console.log(area(2,3)); -->
+<div id="mydiv"></div>
+       
+
+    
+</body>
+</html>
